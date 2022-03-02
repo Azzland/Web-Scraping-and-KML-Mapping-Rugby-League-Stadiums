@@ -1,0 +1,39 @@
+AARON BRUNT FEBRUARY 2022
+-----------------------------
+
+import pandas as pd
+
+#Arrays to store stadium names that need to be changed from the webpage table and the names they should be changed to to align with coordinates csv
+NamesToChangeInWS = ['Kogarah', 'Carrara', 'Docklands', 'Sydney Cricket Ground No. 2', 'Townsville Stadium', 'Patersons Stadium']
+NamesForMerged_ChangeInWS = ['Kogarah Oval', 'Carrara Stadium', 'Docklands Stadium', 'Sydney Cricket Ground No.2', 'North Queensland Stadium', 'Subiaco Oval']
+
+#Arrays to store stadium names that need to be changed from the coordinates csv and the names they should be changed to to align with webpage table
+NamesToChangeInLL = ['Endeavour Oval', 'Henson Oval', 'QEII stadium']
+NamesForMerged_ChangeInLL = ['Endeavour Field', 'Henson Park', 'QEII Stadium']
+
+#Find number of stadiums (datapoints) in both input files
+num_pointsWS = len(AllStadiumNames_WS)
+num_pointsLL = len(AllStadiumNames_LL)
+
+#Find and change the stadium names from the webpage data
+j = 0
+for st in NamesToChangeInWS:
+    for i in range(num_pointsWS):
+        if AllStadiumNames_WS[i] == st:
+            Stadia_info_from_web_scraping.loc[i, ['Name']] = NamesForMerged_ChangeInWS[j]
+    j += 1
+
+#Find and change the stadium names from the coordinates data        
+j = 0
+for st in NamesToChangeInLL:
+    for i in range(num_pointsLL):
+        if AllStadiumNames_LL[i] == st:
+            Stadia_with_coordinates.loc[i, ['Name']] = NamesForMerged_ChangeInLL[j]
+    j += 1
+
+#Create new data frame from joining the latitude and longitude coordinates to the web scraped data
+all_stadia_data = pd.merge(Stadia_info_from_web_scraping,Stadia_with_coordinates, on="Name", how="outer")
+
+
+#Write merged dataframe to a csv file
+all_stadia_data.to_csv('C:/Users/Azzla/Documents/NRLStadia_alldata.csv')

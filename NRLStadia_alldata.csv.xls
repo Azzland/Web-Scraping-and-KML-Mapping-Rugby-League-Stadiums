@@ -1,0 +1,97 @@
+,Name,FirstYear,LastYear,City,Country,Matches,AverageCrowd,HighestCrowd,TotalAttendance,Unnamed: 9,Unnamed: 10,Longitude,Latitude
+0,Adelaide Oval,1991,2019,Adelaide,Australia,26,13804,28884.0,358896.0,List,,138.5961,-34.9155
+1,Apex Oval,2021,2021,Dubbo,Australia,1,10824,10824.0,10824.0,List,,,
+2,Athletic Oval,2018,2021,Toowoomba,Australia,2, 7297,7297.0,7297.0,List,,151.9660141,-27.55889107
+3,Barlow Park,2013,2018,Cairns,Australia,6,11700,16118.0,70200.0,List,,145.7678,-16.9309
+4,Belmore Sports Ground,1936,2019,Belmore (Sydney),Australia,612, 9520,27804.0,5207582.0,List,,151.094722,-33.916667
+5,Bennett Oval,1998,1998,Whyalla,Australia,1,5153,5153.0,5153.0,List,,137.5324,-33.0196
+6,Birchgrove Oval,1908,1942,Birchgrove (Sydney),Australia,176, 2818,11000.0,442470.0,List,,151.1817,-33.8496
+7,Brookvale Oval,1947,2021,Brookvale (Sydney),Australia,707, 11091,27655.0,7286494.0,List,,151.273333,-33.76
+8,Browne Park,2021,2021,Rockhampton,Australia,3,4146,5087.0,12437.0,List,,,
+9,Bruce Stadium,1990,2021,Canberra,Australia,372,12174,26567.0,4528635.0,List,,149.102778,-35.25
+10,Campbelltown Stadium,1983,2021,Campbelltown,Australia,238, 9220,20527.0,2157429.0,List,,150.8337,-34.0504
+11,Carlaw Park,1992,1993,Auckland,New Zealand,3,13993,17368.0,41978.0,List,,,
+12,Carrara Stadium,1994,2007,Gold Coast,Australia,48,10417,22688.0,499999.0,List,,153.3671,-28.0063
+13,Carrington Park,2014,2021,Bathurst,Australia,7,8225,10973.0,57575.0,List,,149.5852,-33.4193
+14,Cazalys Oval,2001,2001,Cairns,Australia,2,9807,13500.0,19613.0,List,,145.749,-16.9358
+15,Chatswood Oval,1933,1936,Chatswood (Sydney),Australia,5, 3000,3000.0,6000.0,List,,151.1819,-33.7999
+16,Chris Cunningham Field,1988,1995,Tweed Heads West (Tweed Heads),Australia,87,7189,14438.0,625457.0,List,,153.506478,-28.197633
+17,Concord Oval,1963,1994,Concord (Sydney),Australia,4,13838,19572.0,55352.0,List,,151.1094,-33.8683
+18,Cumberland Oval,1920,1981,Parramatta (Sydney),Australia,329, 9503,22470.0,2565728.0,List,,150.999722,-33.808056
+19,Docklands Stadium,2001,2010,Docklands (Melbourne),Australia,20,16083,33427.0,321661.0,List,,144.9475,-37.8166
+20,Dolphin Stadium,2021,2021,Redcliffe (Brisbane),Australia,5,4130,5351.0,20651.0,List,,,
+21,Drummoyne Oval,1932,1950,Drummoyne (Sydney),Australia,17, 4618,9209.0,27709.0,List,,151.15,-33.8509
+22,Earl Park,1925,1939,Arncliffe (Sydney),Australia,120, 4208,14758.0,345051.0,List,,151.147907,-33.932958
+23,Eden Park,2011,2014,Auckland,New Zealand,6,27228,38405.0,163369.0,List,,,
+24,Endeavour Field,1968,2019,Cronulla (Sydney),Australia,590,10250,22302.0,6047260.0,List,,151.140833,-34.038611
+25,Eric Weissel Oval,1998,1998,Wagga Wagga,Australia,1,4115,4115.0,4115.0,List,,147.351389,-35.110278
+26,Erskineville Oval,1913,1954,Erskineville (Sydney),Australia,79, 3381,10258.0,158884.0,List,,151.191,-33.902
+27,Fisher Park,1998,1998,Cootamundra,Australia,1,6432,6432.0,6432.0,List,,148.0246,-34.6348
+28,Forsyth Barr Stadium,2017,2017,Dunedin,New Zealand,1,10238,10238.0,10238.0,List,,,
+29,Glen Willow Oval,2013,2021,Mudgee,Australia,4,8435,9267.0,33741.0,List,,149.582933,-32.582554
+30,Goulburn Showground,1914,1914,Goulburn,Australia,1,List,,,,,149.7178955,-34.76520157
+31,Grahame Park,2000,2021,Gosford,Australia,88, 11269,20060.0,957865.0,List,,151.3377,-33.4282
+32,Henson Park,1936,1990,Newtown (Sydney),Australia,334, 5175,30500.0,1609353.0,List,,151.1582,-33.9047
+33,Hindmarsh Oval,1998,2009,Hindmarsh (Adelaide),Australia,6,7476,8547.0,44854.0,List,,138.5689,-34.9073
+34,Hurstville Oval,1921,1949,Hurstville (Sydney),Australia,57, 6377,14997.0,331601.0,List,,151.0994,-33.9612
+35,Kogarah Oval,1950,2021,Kogarah (Sydney),Australia,483, 10237,23582.0,4637362.0,List,,151.129167,-33.971944
+36,Lancaster Park,1996,2019,Phillipstown (Christchurch),New Zealand,6,15302,20721.0,91812.0,List,,,
+37,Lang Park,1988,2021,Milton (Brisbane),Australia,382, 27770,52347.0,10274965.0,List,,153.0095,-27.4648
+38,Lathlain Oval,1999,1999,Lathlain (Perth),Australia,1,8236,8236.0,8236.0,List,,115.906265,-31.972155
+39,Lavington Sports Ground,2015,2015,Albury,Australia,1,6436,6436.0,6436.0,List,,146.9130508,-36.0351726
+40,Leichhardt Oval,1934,2021,Leichhardt (Sydney),Australia,585, 8831,22877.0,4653914.0,List,,151.154722,-33.868611
+41,Lidcombe Oval,1951,1986,Lidcombe (Sydney),Australia,200, 7263,21015.0,1438113.0,List,,151.0401,-33.8567
+42,Manuka Oval,2001,2001,Manuka (Canberra),Australia,1,7112,7112.0,7112.0,List,,149.1346437,-35.31789979
+43,Marley Brown Oval,2018,2018,Gladstone,Australia,1,5135,5135.0,5135.0,List,,151.2243,-23.8783
+44,Marrara Stadium,2012,2021,Darwin,Australia,9,9051,12056.0,81455.0,List,,130.8835,-12.4005
+45,Marrickville Oval,1920,1935,Marrickville (Sydney),Australia,95, 3632,10000.0,236100.0,List,,151.1518,-33.9025
+46,McDonalds Park,2019,2021,Wagga Wagga,Australia,2,8361,10079.0,16721.0,List,,138.645,-34.6697
+47,McLean Park,2015,2015,Napier,New Zealand,1,14532,14532.0,14532.0,List,,,
+48,Melbourne Cricket Ground,2000,2000,Jolimont (Melbourne),Australia,2,19387,23239.0,38774.0,List,,144.9833171,-37.81975938
+49,Melbourne Rectangular Stadium,2010,2021,Melbourne,Australia,134, 15649,29315.0,2065701.0,List,,144.9838,-37.8251
+50,Metters Sports Ground,1910,1912,Erskineville (Sydney),Australia,19, 2811,12000.0,50600.0,List,,151.188558,-33.903085
+51,Mt Smart,1995,2019,Penrose (Auckland),New Zealand,288,14293,32174.0,4116325.0,List,,,
+52,Newcastle International Sports Centre,1985,2021,Newcastle,Australia,400,18071,32642.0,7228482.0,List,,151.726667,-32.918889
+53,Newcastle Showgrounds,1909,1909,Broadmeadow (Newcastle),Australia,3, 3000,3000.0,3000.0,List,,151.7357,-32.9191
+54,North Sydney Oval,1910,2005,North Sydney (Sydney),Australia,749, 6697,23089.0,4573752.0,List,,151.209444,-33.831944
+55,Olympic Park,1993,2009,Jolimont (Melbourne),Australia,137,11283,20522.0,1545728.0,List,,144.98,-37.8204
+56,Orangetheory Stadium,2016,2018,Christchurch,New Zealand,2,17679,18000.0,35357.0,List,,,
+57,Owen Delany Park,2011,2011,Taupo,New Zealand,1,14645,14645.0,14645.0,List,,,
+58,Palmerston North Showgrounds,2017,2017,Palmerston North,New Zealand,1,11108,11108.0,11108.0,List,,,
+59,Parramatta Stadium,1986,2016,Parramatta (Sydney),Australia,390,12930,27243.0,5042696.0,List,,150.999722,-33.808056
+60,Subiaco Oval,2012,2012,Perth,Australia,1,20095,20095.0,20095.0,List,,115.8297828,-31.94460988
+61,Penrith Park,1967,2021,Penrith (Sydney),Australia,615, 10071,22582.0,6183500.0,List,,150.687778,-33.758611
+62,Perth Oval,1997,2017,Perth,Australia,14,13924,20727.0,194930.0,List,,115.87,-31.945833
+63,Perth Stadium,2018,2018,Perth,Australia,2,38824,38824.0,77648.0,List,,115.889,-31.9512
+64,Pioneer Oval,1998,1998,Parkes,Australia,1,7514,7514.0,7514.0,List,,148.1822,-33.1296
+65,Pratten Park,1912,1985,Ashfield (Sydney),Australia,335, 4616,12407.0,1177189.0,List,,151.1232,-33.8929
+66,Princes Park,1994,1994,Carlton North (Melbourne),Australia,2,10395,14672.0,20790.0,List,,144.9619945,-37.78386968
+67,QEII Stadium,1993,2003,Nathan (Brisbane),Australia,122,26127,58912.0,3187475.0,List,,153.062222,-27.558333
+68,Redfern Oval,1948,1996,Redfern (Sydney),Australia,332, 9055,23257.0,2716527.0,List,,151.2061,-33.8952
+69,Richardson Park,1991,1995,Darwin,Australia,3,9849,13246.0,29546.0,List,,130.853232,-12.425526
+70,Robina Stadium,2008,2021,Robina (Gold Coast),Australia,178, 14068,27227.0,2391611.0,List,,153.3788,-28.0668
+71,Royal Agricultural Society Showground,1908,1987,Moore Park (Sydney),Australia,183, 7141,36818.0,1178338.0,List,,151.2188,-33.8898
+72,Scully Park,2018,2020,Tamworth,Australia,3,7245,10082.0,21734.0,List,,150.9187938,-31.1017686
+73,Seiffert Oval,1982,1989,Queanbeyan,Australia,98,9036,18272.0,885545.0,List,,149.2431,-35.3452
+74,St Luke's Park,1910,1942,Concord (Sydney),Australia,34, 1690,5000.0,50700.0,List,,151.1089,-33.8658
+75,Stadium Australia,1999,2021,Sydney Olympic Park (Sydney),Australia,505,22206,107999.0,11214264.0,List,,151.063333,-33.847222
+76,Stadium Mackay,2012,2021,Mackay,Australia,7,6562,11876.0,45931.0,List,,149.1844,-21.1637
+77,Sunshine Coast Stadium,2019,2021,Kawana Waters (Brisbane),Australia,16,5110,11912.0,81758.0,List,,153.1258877,-26.73343348
+78,Sutherland Oval,1967,1968,Sutherland (Sydney),Australia,16,5552,12578.0,88837.0,List,,151.051727,-34.028534
+79,Sydney Cricket Ground,1913,2021,Moore Park (Sydney),Australia,1151, 21048,78056.0,23742329.0,List,,151.2249,-33.8915
+80,Sydney Cricket Ground No.2,1920,1923,Moore Park (Sydney),Australia,6, 2000,3000.0,6000.0,List,,151.224641,-33.890199
+81,Sydney Football Stadium,1988,2018,Moore Park (Sydney),Australia,672,15772,44380.0,10598544.0,List,,151.225278,-33.889167
+82,Sydney Showground,2001,2005,Homebush (Sydney),Australia,35,11707,21895.0,409746.0,List,,151.0673,-33.8433
+83,Sydney Sports Ground,1911,1986,Moore Park (Sydney),Australia,826, 10054,34994.0,7530779.0,List,,151.223333,-33.888056
+84,Topper Stadium,1997,1997,Newcastle,Australia,9,5413,7719.0,48720.0,List,,151.6838,-32.894
+85,Townsville Sports Reserve,1990,1990,Townsville,Australia,1,8648,8648.0,8648.0,List,,146.80666,-19.24982
+86,North Queensland Stadium,2020,2021,Townsville,Australia,24, 12467,22459.0,274263.0,List,,146.8155719,-19.26590437
+87,Trumper Oval,1915,1941,Paddington (Sydney),Australia,10, 2793,6000.0,19550.0,List,,151.2329,-33.8804
+88,WACA Ground,1989,1997,East Perth (Perth),Australia,38,12074,24932.0,458811.0,List,,115.8795,-31.9598
+89,Waikato Stadium,2005,2014,Whitiora (Hamilton),New Zealand,3,16968,17673.0,50904.0,List,,,
+90,Wentworth Park,1908,1931,Glebe (Sydney),Australia,217, 3005,20000.0,592050.0,List,,151.1929,-33.8768
+91,Western Sydney Stadium,2019,2021,Parramatta (Sydney),Australia,55, 11723,29372.0,574450.0,List,,150.99973,-33.80806
+92,WestpacTrust Stadium,2001,2019,Thorndon (Wellington),New Zealand,10,20431,30112.0,204314.0,List,,,
+93,Willows Sports Complex,1995,2019,Townsville,Australia,302,16573,30302.0,5005079.0,List,,146.7118,-19.3162
+94,Wollongong Showground,1982,2021,Wollongong,Australia,318,10375,19608.0,3299385.0,List,,150.9021,-34.4272
+95,Yarrow Stadium,2016,2016,New Plymouth,New Zealand,1,12833,12833.0,12833.0,List,,,

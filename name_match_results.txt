@@ -1,0 +1,39 @@
+Stadium Names in Webpage Table but not in the coordinates CSV
+
+Apex Oval
+Browne Park
+Carlaw Park
+Carrara
+Docklands
+Dolphin Stadium
+Eden Park
+Endeavour Field
+Forsyth Barr Stadium
+Henson Park
+Kogarah
+Lancaster Park
+McLean Park
+Mt Smart
+Orangetheory Stadium
+Owen Delany Park
+Palmerston North Showgrounds
+Patersons Stadium
+QEII Stadium
+Sydney Cricket Ground No. 2
+Townsville Stadium
+Waikato Stadium
+WestpacTrust Stadium
+Yarrow Stadium
+
+
+Stadium Names in coordinates CSV but not in Webpage Table
+
+Endeavour Oval
+Kogarah Oval
+Henson Oval
+QEII stadium
+Carrara Stadium
+Docklands Stadium
+Sydney Cricket Ground No.2
+North Queensland Stadium
+Subiaco Oval

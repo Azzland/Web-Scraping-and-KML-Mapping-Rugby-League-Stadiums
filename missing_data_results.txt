@@ -1,0 +1,33 @@
+Missing value for HighestCrowd at row 30 with stadium name Goulburn Showground
+Missing value for TotalAttendance at row 30 with stadium name Goulburn Showground
+Missing value for Unnamed: 9 at row 30 with stadium name Goulburn Showground
+Missing value for Longitude at row 1 with stadium name Apex Oval
+Missing value for Longitude at row 8 with stadium name Browne Park
+Missing value for Longitude at row 11 with stadium name Carlaw Park
+Missing value for Longitude at row 20 with stadium name Dolphin Stadium
+Missing value for Longitude at row 23 with stadium name Eden Park
+Missing value for Longitude at row 28 with stadium name Forsyth Barr Stadium
+Missing value for Longitude at row 36 with stadium name Lancaster Park
+Missing value for Longitude at row 47 with stadium name McLean Park
+Missing value for Longitude at row 51 with stadium name Mt Smart
+Missing value for Longitude at row 56 with stadium name Orangetheory Stadium
+Missing value for Longitude at row 57 with stadium name Owen Delany Park
+Missing value for Longitude at row 58 with stadium name Palmerston North Showgrounds
+Missing value for Longitude at row 89 with stadium name Waikato Stadium
+Missing value for Longitude at row 92 with stadium name WestpacTrust Stadium
+Missing value for Longitude at row 95 with stadium name Yarrow Stadium
+Missing value for Latitude at row 1 with stadium name Apex Oval
+Missing value for Latitude at row 8 with stadium name Browne Park
+Missing value for Latitude at row 11 with stadium name Carlaw Park
+Missing value for Latitude at row 20 with stadium name Dolphin Stadium
+Missing value for Latitude at row 23 with stadium name Eden Park
+Missing value for Latitude at row 28 with stadium name Forsyth Barr Stadium
+Missing value for Latitude at row 36 with stadium name Lancaster Park
+Missing value for Latitude at row 47 with stadium name McLean Park
+Missing value for Latitude at row 51 with stadium name Mt Smart
+Missing value for Latitude at row 56 with stadium name Orangetheory Stadium
+Missing value for Latitude at row 57 with stadium name Owen Delany Park
+Missing value for Latitude at row 58 with stadium name Palmerston North Showgrounds
+Missing value for Latitude at row 89 with stadium name Waikato Stadium
+Missing value for Latitude at row 92 with stadium name WestpacTrust Stadium
+Missing value for Latitude at row 95 with stadium name Yarrow Stadium

@@ -1,0 +1,86 @@
+AARON BRUNT FEBRUARY 2022
+______________________________
+
+import urllib.request as ur
+from bs4 import BeautifulSoup, NavigableString, Tag
+import csv
+
+
+#Specify the URL of the webpage
+url = "https://www.rugbyleagueproject.org/competitions/nrl/venues.html"
+
+# Open the URL
+page = ur.Request(url)
+result = ur.urlopen(page)
+# Store the HTML page in a variable
+resulttext = result.read()
+
+
+# Creates a nested data structure
+soup = BeautifulSoup(resulttext, 'html.parser')
+ 
+# Search for all in that table class in the soup
+soup = soup.find_all(class_= "list")
+
+#Extract all data in the table from first element
+trending_list = soup[0]
+
+#Initialize array to store all data for all stadiums from website table
+AllStadiumData = []
+
+for a in trending_list.contents:
+    #Initialize array to store data for stadium a
+    StadiumData = []
+    #For each <tr> element i, which stores table data for one stadium
+    for i in a:
+        #If it is a tag element
+        if(isinstance(i, Tag)):
+            for td in i:
+                #The numbers have commas in them, which will be a pain when writing to a csv and there are * next to some
+                #values that should be removed, so check all values to remove any of these characters. 
+                td = str(td)
+                #Identify any * in the values and remove them by creating a new string eliminating the character in the position of *
+                i = td.find('*')
+                if i > -1:
+                    td = td[i+1:] 
+                #Identify and remove any commas in the same way as above     
+                a = td.find(',')                        
+                if a > -1:
+                    while a > -1:
+                         td = td[0:a] + td[a+1:]
+                         a = td.find(',')
+                #Extract the value from the tags by finding the location of the first > and second < character
+                last_start_tag = td.rfind('<')
+                if last_start_tag > -1: 
+                                     
+                    first_end_tag = td.find('>')
+                    td = td[first_end_tag+1:last_start_tag]
+                #Append extracted value to the array for that stadium    
+                StadiumData.append(td) 
+    #If that array has values, add that whole array to the array containing data for each and every stadium 
+    if len(StadiumData)>0:                          
+        AllStadiumData.append(StadiumData)
+        
+#Declare the csv filename and path to write array data to        
+csvfilename = 'C:/Users/Azzla/Documents/NRLStadia.csv'
+#Open that csv file for writing
+csvfile = open(csvfilename, 'w')
+
+#As the table column names may have characters that are not alphanumeric nor are spaces nor hyphens, there is a need to remove these
+#in order to progress with writing the data to a csv and later a dataframe. 
+colnames = AllStadiumData[0]
+i = 0
+for colname in colnames:
+    c = ''.join(filter(str.isalnum, colname))
+    AllStadiumData[0][i] = c
+    i += 1
+
+#For each line (or array) in the array AllStadiumData, write each line as a kine of csv in the file
+for line in AllStadiumData:
+    for element in line:
+        csvfile.write(str(element))
+        csvfile.write(',')
+    csvfile.write('\n')
+    
+#Close the csv file
+csvfile.close()

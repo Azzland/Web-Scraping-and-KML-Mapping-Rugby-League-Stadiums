@@ -1,0 +1,40 @@
+AARON BRUNT FEBRUARY 2022
+________________________________
+
+import simplekml
+
+DataToMap = pd.read_csv('C:/Users/Azzla/Documents/NRLStadia_alldata_edit3.csv')
+Names = AllData.loc[1].tolist()
+
+attributes = DataToMap.columns
+                        
+
+kml = simplekml.Kml()
+numpoints = len(DataToMap)
+
+i = 0
+while i < numpoints:
+    Stadium = AllData.loc[i].tolist()
+    for j in [2,3,6,7,8,9]:
+        try:
+            Stadium[j] = float(Stadium[j])
+            Stadium[j] = int(Stadium[j])
+        except:
+            ValueError
+    point = kml.newpoint(name = Stadium[1])
+    point.coords = [(Stadium[10], Stadium[11])]
+    location = "Location: " + str(Stadium[4]) + ", " + str(Stadium[5]) + '\n'
+    firstgame = "Year Of First Match: " + str(Stadium[2]) + '\n'
+    recentgame = 'Year Of Most Recent Match: ' + str(Stadium[3]) + '\n'
+    totalmatches = "Total Matches Hosted: " + str(Stadium[6]) + '\n'
+    attendances = "ATTENDANCE FIGURES\n"
+    highestcrowd = "    Highest Crowd: " + str(Stadium[8]) + "\n"
+    averagecrowd = "    Average Crowd: " + str(Stadium[7]) + "\n"
+    totalcrowd = "    Total Attendance: " + str(Stadium[9]) + "\n"
+    info = location + firstgame + recentgame + totalmatches + attendances + highestcrowd + averagecrowd + totalcrowd
+    point.description = info
+    i += 1
+    
+kml.save('C:/Users/Azzla/Documents/NRLStadia.kml')
+
+

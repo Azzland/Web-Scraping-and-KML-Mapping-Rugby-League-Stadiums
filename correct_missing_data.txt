@@ -1,0 +1,42 @@
+AARON BRUNT FEBRUARY 2022
+_____________________________
+
+AllData = pd.read_csv('C:/Users/Azzla/Documents/NRLStadia_alldata_edit2.csv')
+
+#Insert values that are missing for latitude and longitude based on Google research on coordinates
+
+StadiumsToFindCoordinates = ['Apex Oval','Browne Park','Carlaw Park','Dolphin Stadium','Eden Park','Forsyth Barr Stadium','Lancaster Park','McLean Park','Mt Smart','Orangetheory Stadium','Owen Delany Park','Palmerston North Showgrounds','Waikato Stadium','WestpacTrust Stadium','Yarrow Stadium']
+Coordinates = [[148.62216,-32.253582],[150.5018,-23.376694],[174.77583, -36.85361],[153.10239, -27.22116],[174.74472, -36.875],[170.52444, -45.86917],[172.65417, -43.54194],[176.91278, -39.50194],[174.8124, -36.9183],[172.6041, -43.5438],[176.1005, -38.6695],[175.6005, -40.3575],[175.2695, -37.7815],[174.7859, -41.2729],[174.0661, -39.0706]]
+Indexes = []
+AllStadiumNames = AllData['Name'].tolist()
+
+
+for stadia in StadiumsToFindCoordinates:
+    i = 0
+    for s in AllStadiumNames:
+        if stadia == s:
+            Indexes.append(i)
+        else:
+            i += 1
+
+n = 0
+for s in AllStadiumNames:
+    if s == 'Goulburn Showground':
+        x = n
+    else:
+        n += 1
+        
+AllData.loc[x, ['HighestCrowd']] = 'No Known Information'
+AllData.loc[x,['TotalAttendance']] = 'No Known Information'
+
+j = 0
+for i in Indexes:    
+    AllData.loc[i,['Longitude', 'Latitude']] = Coordinates[j]
+    j += 1
+
+#Drop the columns with "Unnamed"'
+AllData.drop(columns = ['Unnamed: 0', 'Unnamed: 0.1', 'Unnamed: 9', 'Unnamed: 10'], axis=1, inplace=True)
+
+
+#Now write updated dataframe to CSV again
+AllData.to_csv('C:/Users/Azzla/Documents/NRLStadia_alldata_edit3.csv')

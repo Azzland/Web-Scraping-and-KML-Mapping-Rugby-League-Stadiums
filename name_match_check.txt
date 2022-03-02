@@ -1,0 +1,25 @@
+AARON BRUNT FEBRUARY 2022
+-----------------------------
+import pandas as pd
+
+#Create the dataframes by reading both csvs for the web scraped data and the data with the longitudes and latitudes
+Stadia_with_coordinates = pd.read_csv('C:/Users/Azzla/Documents/NRLARLNSWRLStadia.csv')
+Stadia_info_from_web_scraping = pd.read_csv('C:/Users/Azzla/Documents/NRLStadia.csv')
+
+#Check the names of the stadiums to see if all agree
+AllStadiumNames_WS = Stadia_info_from_web_scraping['Name'].tolist()
+AllStadiumNames_LL = Stadia_with_coordinates['Name'].tolist()
+
+#Find stadium names in the webpage table that are not in the stadium coordinates csv and display on screen
+print('Stadium Names in Webpage Table but not in the coordinates CSV\n')
+for st in AllStadiumNames_WS:
+    if st not in AllStadiumNames_LL:
+        print(st)
+
+#Find stadium names in the stadium coordinates csv that are not in the webpage table and display on screen        
+print('\n\nStadium Names in coordinates CSV but not in Webpage Table\n')
+for st in AllStadiumNames_LL:
+    if st not in AllStadiumNames_WS:
+        print(st)
+
+

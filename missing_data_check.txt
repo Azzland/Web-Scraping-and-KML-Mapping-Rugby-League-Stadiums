@@ -1,0 +1,60 @@
+AARON BRUNT FEBRUARY 2022
+_______________________________
+
+AllStadiaData = pd.read_csv('C:/Users/Azzla/Documents/NRLStadia_alldata.csv')
+
+index_attributes = AllStadiaData.columns
+attributes = []
+for i in index_attributes:
+    attributes.append(i)
+    
+rows = AllStadiaData.index
+
+num_attributes = len(attributes)
+num_rows = len(rows)
+
+print(num_attributes)
+print(num_rows)
+
+#Check for null or NaN values
+AllStadiaData_check = AllStadiaData.isnull()
+
+number_null_values = []
+for y in range(num_attributes):
+    icount = 0
+    for x in range(num_rows):
+        d = AllStadiaData_check.iat[x,y]
+        if d == True:
+            icount += 1
+    number_null_values.append(icount)
+
+print(number_null_values)
+
+columns_to_delete = []
+for y in range(num_attributes):
+    if number_null_values[y]==num_rows:
+        columns_to_delete.append(attributes[y])
+
+print(columns_to_delete)
+
+for col in columns_to_delete:
+    AllStadiaData.drop(col, inplace=True, axis=1)
+    attributes.remove(col)
+
+num_attributes = len(attributes)
+AllStadiaData_check = AllStadiaData.isnull()
+
+for y in range(num_attributes):
+    if attributes[y] == "Name":
+        name_attr = y
+    
+for y in range(num_attributes):
+    a = attributes[y]
+    for x in range(num_rows):
+        d = AllStadiaData_check.iat[x,y]
+        if d == True:
+            string = "Missing value for " + str(a) + " at row " + str(x) + " with stadium name " + str(AllStadiaData.iat[x,name_attr])
+            print(string)
+
+#Export to new csv
+AllData.to_csv('C:/Users/Azzla/Documents/NRLStadia_alldata_edit2.csv')
